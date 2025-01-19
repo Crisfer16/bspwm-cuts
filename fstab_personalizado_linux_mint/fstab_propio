@@ -1,0 +1,2 @@
+/dev/sdb1  /media/cristian/disco2-ssd  ext4  defaults  0  0
+/dev/sda1 /media/cristian/disco3-juegos-y-mas  ext4  defaults  0  0

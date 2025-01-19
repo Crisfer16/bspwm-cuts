@@ -1,0 +1,74 @@
+/* Custom theme for audio selector */
+
+@import "colors.rasi"
+
+configuration {
+    font:			   "Iosevka Nerd Font 10";
+    show-icons:                     false;
+    disable-history:                true;
+    hide-scrollbar: 		    true;
+}
+
+window {
+    transparency:                   "real";
+    background-color:               @bg;
+    text-color:                     @fg;
+	border:							0px;
+	border-color:					@ac;
+    border-radius:                  0px;
+	width:							600px;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+listview {
+    background-color:               @al;
+    padding:                        6px;
+    lines:                          5;
+    spacing:                        6px;
+    dynamic:                        false;
+    cycle:                          true;
+}
+
+element {
+    background-color:               @bg;
+    text-color:                     @fg;
+    padding:                        8px;
+}
+
+element selected {
+    background-color:               @ac;
+    text-color:                     @fg;
+    border:			    0px;
+    border-radius:                  8px;
+}
+
+
+mainbox {
+    background-color:               @al;
+	border:							0px;
+    border-radius:                  0px;
+    padding:                        6px;
+    spacing:                       	6px;
+}
+
+inputbar {
+	children: 						[ entry ];
+    background-color:               @bga;
+    text-color:                     @fg;
+    expand:                         false;
+	border:							0px;
+    border-radius:                  0px;
+	border-color:					@ac;
+    margin:                         0px;
+    padding:                        8px;
+}
+
+entry {
+    background-color:               @al;
+    text-color:                     @fg;
+    expand:                         true;
+    padding: 						2px;
+}
+
