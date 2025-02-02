@@ -137,7 +137,7 @@ copiar_configuracion() {
     cp -r "$origen/fondo_pantalla" "$HOME/.fondo_pantalla" || { echo "Error copiando fondo_pantalla"; return 1; }
     cp "$origen/config/bspwm/bspwmrc" "$HOME/.config/bspwm/bspwmrc" || { echo "Error copiando bspwmrc"; return 1; }
     cp "$origen/config/sxhkd/sxhkdrc" "$HOME/.config/sxhkd/sxhkdrc" || { echo "Error copiando sxhkdrc"; return 1; }
-    cp -r "$origen/config/polybar/grayblocks" "$HOME/.config/polybar/" || { echo "Error copiando grayblocks"; return 1; }
+    cp -r "$origen/config/polybar/cuts" "$HOME/.config/polybar/" || { echo "Error copiando grayblocks"; return 1; }
     cp "$origen/config/dunst/dunstrc" "$HOME/.config/dunst/dunstrc" || { echo "Error copiando dunstrc"; return 1; }
     cp "$origen/config/picom/picom.conf" "$HOME/.config/picom/picom.conf" || { echo "Error copiando picom.conf"; return 1; }
     cp "$origen/config/kitty/kitty.conf" "$HOME/.config/kitty/kitty.conf" || { echo "Error copiando kitty.conf"; return 1; }
