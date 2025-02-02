@@ -110,7 +110,7 @@ copiar_configuracion() {
     mkdir -p $HOME/.config/{bspwm,sxhkd,dunst,picom,kitty}
 
     # Definir rutas de origen
-    local ruta="$HOME/bspwm-cris"
+    local ruta="$HOME/bspwm-cuts"
     local ruta_propia="$HOME/script_bspwm"
     local ruta_alternativa="$HOME/bspwm-cris-main"
     local ruta_alternativa_descargas="$HOME/Descargas/bspwm-cris-main/"
